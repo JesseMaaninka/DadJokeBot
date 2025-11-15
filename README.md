@@ -17,4 +17,12 @@ npm start
 
 ### 3. Using ngrok for Twilio
 
-https://ineffaceable-freakish-armandina.ngrok-free.dev/  (I need to have it running for the bot to work)
+Expose your local server: 
+ngrok http 3000
+
+Copy the HTTPS URL from ngrok and set it in Twilio:
+
+**Twilio Console → Phone Numbers → Your Number → Voice → Webhook URL**
+
+Set it to:
+https://ineffaceable-freakish-armandina.ngrok-free.dev/voice  (I need to have it running for the bot to work)
