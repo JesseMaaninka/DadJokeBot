@@ -1,0 +1,16 @@
+{
+  "name": "twilio-dadjoke-bot",
+  "version": "1.0.0",
+  "description": "Simple Twilio Dad Joke Voice Bot for DevOps course.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  },
+
+  "dependencies": {
+    "express": "^5.1.0",
+    "twilio": "^5.10.5"
+  }
+}
+
